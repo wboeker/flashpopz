@@ -1,21 +1,30 @@
-h1 {
-
-	color: blue;
-	padding: 10px;
-	border: solid 10px;
-	margin-left: 10px;
-}
-
-h2 {
-
-	color: green;
-}
-
-div {
+div.josh-is-old {
 
 	margin: 0 auto;
 	text-align: center;
 	background: pink;
+}
+
+div.card {
+
+	margin: 0 auto;
+	text-align: center;
+	background: #ffffe6;
+	width: 150px;
+	height: 200px;
+	border: solid 5px;
+	border-radius: 10px;
+	border-color: #ffffe6;
+}
+
+h1.card__letter {
+	padding-top: 8px;
+	font: ;
+}
+
+body {
+
+	background: #000000;
 }
 
 
