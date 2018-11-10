@@ -1,0 +1,21 @@
+h1 {
+
+	color: blue;
+	padding: 10px;
+	border: solid 10px;
+	margin-left: 10px;
+}
+
+h2 {
+
+	color: green;
+}
+
+div {
+
+	margin: 0 auto;
+	text-align: center;
+	background: pink;
+}
+
+
