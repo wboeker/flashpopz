@@ -73,28 +73,11 @@ h3.card__word {
 
 }
 
-div.back-of-card {
+div.card__border-box {
 
-	margin: 0 auto;
-	text-align: center;
-	background: #ffffe6;
-	width: 150px;
-	height: 225px;
 	border: solid 5px;
 	border-radius: 10px;
-	border-color: #ffffe6;
-}
-
-div.back-of-card__border-box {
-
-	margin: 0 auto;
-	text-align: center;
-	background: #ffffe6;
-	border: solid 5px;
-	border-radius: 10px;
-	border-color: black;
-	width: 150px;
-	height: 225px;
+	height: calc(100% - 10px);
 
 }
 
