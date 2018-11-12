@@ -1,0 +1,4 @@
+function toggleFlashcard()
+{
+	alert("hello");
+}
