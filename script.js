@@ -1,8 +1,26 @@
+let frontCard = null;
+let backCard = null;
+
+function initialize()
+{
+	frontCard = document.getElementById("front");
+	backCard = document.getElementById("back");
+	frontCard.style.display = "none";
+	backCard.style.display = "block";
+}
+
 function toggleFlashcard()
 {
-	var frontCard = document.getElementById("front");
-	frontCard.style.display = "block";
-
-	var backCard = document.getElementById("back");
-	backCard.style.display = "none";
+	if(backCard.style.display === "block")
+	{
+		frontCard.style.display = "block";
+		backCard.style.display = "none";
+	}
+	else
+	{
+		frontCard.style.display = "none";
+		backCard.style.display = "block";
+	}
 }
+
+window.onload = initialize;
