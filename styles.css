@@ -23,6 +23,15 @@ div.card {
 	border-color: #ffffe6;
 }
 
+#front {
+
+	display: none;
+}
+
+#back {
+
+}
+
 div.card__footer {
 
 	font-size: 5px;
