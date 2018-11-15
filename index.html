@@ -5,14 +5,14 @@
 </head>
 
 <div class="card" id="front">
-	<h1 class="card__letter"> C </h1>
+	<h1 class="card__letter" id="letter"> C </h1>
 	<p class="card__phrase"> IS FOR </p>
-	<h3 class="card__word"> Chicago </h3>
-	<img src="chicago-skyline-clipart-4.jpg" width = 55% height = 25%>
+	<h3 class="card__word" id="word"> Chicago </h3>
+	<img src="chicago-skyline-clipart-4.jpg" id="skyline" width = 55% height = 25%>
 	<div class="card__footer"> 
 		<div class="card__footer__right">
-			<h3 class="card__footer__right__word"> Chicago </h3>
-			<p class="card__footer__right__letter"> C </p>
+			<h3 class="card__footer__right__word" id="footer-word"> Chicago </h3>
+			<p class="card__footer__right__letter" id="footer-letter"> C </p>
 		</div>
 	</div>
 </div>
@@ -21,11 +21,18 @@
 	<div class="card__border-box"></div>
 </div>
 
-<div class="button">
+<div class="button" id="toggle">
 	<div class="button__child">
-		<button onClick = "toggleFlashcard()"> show flashcard </button>
+		<button onClick = "toggleFlashcard()"> toggle </button>
 	</div>
 </div>
+
+<div class="button" id="next">
+	<div class="button__child">
+		<button onClick = "nextFlashcard()"> next </button>
+	</div>
+</div>
+
 
 
 
