@@ -45,4 +45,14 @@ function nextFlashcard()
 
 }
 
+function previousFlashcard()
+{
+	cardLetter.innerHTML = "C";
+	cardWord.innerHTML = "Chicago";
+	footerLetter.innerHTML = "C";
+	footerWord.innerHTML = "Chicago";
+	document.getElementById("skyline").src = "chicago-skyline-clipart-4.jpg";
+
+}
+
 window.onload = initialize;

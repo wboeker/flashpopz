@@ -75,3 +75,16 @@ div.button {
 div.button__child {
 	display: inline-block;
 }
+
+#previous {
+	float: left;
+}
+
+#next {
+	float: right;
+}
+
+div.sequence-buttons {
+	width: 20%;
+	margin: 0 auto;
+}
